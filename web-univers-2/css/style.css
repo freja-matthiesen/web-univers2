@@ -1,0 +1,144 @@
+/* Generelle stilarter */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D2E7F0; /* Lys blå baggrund */
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #F0E4C7; /* Beige baggrund til headeren */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Juster størrelsen på logoet */
+    height: auto; /* Beholder proportionerne */
+    margin-bottom: 20px; /* Plads under logoet */
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #D2E7F0;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #F0E4C7; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F0E4C7; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.dropdown-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content li a {
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    font-weight: normal;
+}
+
+.dropdown-content li a:hover {
+    background-color: #F0E4C7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Indholdselementer */
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+/* Container for hver sektion */
+.section {
+    margin-bottom: 40px; /*Afstand mellem sektionerne */
+    text-align: center; /* Centrerer indholdet i sektionen */
+}
+
+
+.section h2 {
+    background-color: #F0E4C7; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    display: inline-block; 
+    margin: 20px 0; 
+    font-size: 28px; 
+    color: #333; 
+}
+
+/* Container til billederne */
+.section-images {
+    display: flex; 
+    justify-content: center; /* Centrerer billederne i containeren */
+    flex-wrap: wrap; /* Sørger for, at billederne flytter sig til næste linje ved behov */
+}
+
+
+.section img {
+    width: 400px; 
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin: 0 20px; 
+}
+
+
+.section p {
+    font-size: 18px; /* Størrelse på teksten */
+    margin-top: 10px; /* Afstand over teksten */
+      font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #F0E4C7;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+

@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D2E7F0; 
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.header {
+    background-color: #F0E4C7; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+/* Container for hver sektion */
+.section {
+    margin-bottom: 40px; /* Afstand mellem sektionerne */
+    text-align: center; /* Centrerer indholdet i sektionen */
+    font-size: bold;
+}
+
+
+.text-box {
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.text-box h2 {
+    font-weight: bold; /* Fed skrift til overskriften */
+    margin-bottom: 15px; /* Mellemrum mellem overskrift og tekst */
+}
+h2 {
+    border-radius: 20%;
+    background-color: #F0E4C7;
+    padding: 5%;
+    width: 13rem;
+}
+.text-box p {
+    line-height: 1.6; /* Øget linjehøjde for bedre læsbarhed */
+    margin-bottom: 10px; /* Mellemrum mellem afsnit */
+}
+
+       
+.image-item {
+    width: 200px; /* Sætter bredden på billedet */
+    height: auto; /* Holder billedets proportioner */
+    margin: 10px auto; /* Giver lidt plads omkring billederne og centrerer dem */
+    display: block; /* Sikrer at billederne vises under hinanden */
+    border-radius: 10px; /* Tilføj rundede hjørner, hvis du ønsker det */
+    object-fit: cover; /* Sørger for at billedet beskæres ordentligt, hvis nødvendigt */
+}
+
+
+section.content {
+    display: flex;
+    flex-direction: row;
+}
+
+section.images {
+    display: flex;
+    flex-direction: row;
+}
+
+
+section.image1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    padding-top: 40%;
+    align-content: stretch;
+    align-items: center;
+}
+
+section.workshop-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.image2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+    gap: 150px
+}
+img.content {
+    width: 260px;
+    height: 240px;
+}
+element.style {
+    width: 260px;
+    height: 500px;
+}
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+article.content-artikel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+section.workshop-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 6%;
+}
+
+section.images {
+    display: flex;
+    flex-direction: row;
+    gap: 150px
+    
+}
+
+
+section.image1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40%;
+    align-content: stretch;
+    gap: 150px;
+}
+
+.footer {
+    background-color: #F0E4C7;
+    padding: 20px;
+    text-align: center;
+}
+
+footer.footer {
+    margin: 6%;
+}
+footer p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+h2 {
+    border-radius: 20%;
+    background-color: #F0E4C7;
+    padding: 5%;
+}
+section.images-section {
+    display: flex;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    unicode-bidi: isolate;
+    font-weight: bold;
+}
