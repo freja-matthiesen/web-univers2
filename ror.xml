@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://webunivers.freja-matthiesen.dk/</title>
+  <link>https://webunivers.freja-matthiesen.dk/</link>
+
+<item>
+     <link>https://webunivers.freja-matthiesen.dk/</link>
+     <title>Campusounds</title>
+     <description>Deltag i Studyjamz - en unik oplevelse for studerende, der ønsker at studere til live akustisk musik. Oplev workshops om musik som terapi og styrk fællesskabet med andre.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://webunivers.freja-matthiesen.dk/workshop.html</link>
+     <title>Workshops - Campusounds</title>
+     <description>Workshops - Campusounds</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://webunivers.freja-matthiesen.dk/studyjamz.html</link>
+     <title>Studyjamz - Campusounds</title>
+     <description>Studyjamz - Campusounds</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://webunivers.freja-matthiesen.dk/musik-som-terapi.html</link>
+     <title>Musik Som Terapi - Campusounds</title>
+     <description>Musik Som Terapi - Campusounds</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://webunivers.freja-matthiesen.dk/index.html</link>
+     <title>Campusounds</title>
+     <description>Deltag i Studyjamz - en unik oplevelse for studerende, der ønsker at studere til live akustisk musik. Oplev workshops om musik som terapi og styrk fællesskabet med andre.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
